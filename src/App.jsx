@@ -58,7 +58,7 @@ const App = () => {
 
                 <div className="container">
 
-                    <div className="result flex-row">
+                    <div className="result">
                         <div className='first'>
                             <p>longitude : {lon}</p>
                             <p>latitude : {lat}</p>

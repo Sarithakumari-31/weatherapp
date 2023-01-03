@@ -45,7 +45,18 @@
     height: 40vh;
     width: 70%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 992px) {
+    .result {
+        height: 70vh;
+        flex-direction: column;
+
+    }
+    .mid {
+        margin: 0;
+    }
+}
+
