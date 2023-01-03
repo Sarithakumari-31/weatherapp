@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+
+.heading {
+    font-weight: bold;
+    color:whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weatherBg {
+    background: url('./assets/b2.jpg');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.btn {
+    /* background-color: blue; */
+    position: relative;
+    top: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    top: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-control {
+    width: 50%;
+    border-radius: 5px ;
 }
 
-.App-link {
-  color: #61dafb;
+.mid {
+    margin: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    top:20rem;
+    height: 40vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
