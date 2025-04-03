@@ -29,7 +29,7 @@ const App = () => {
 
     const getData = (cityName) => {
         if (!cityName) {
-            return
+            return ("please enter a city name");
         }
         const apiurl = url + cityName + '&appid=' + appid;
         axios.get(apiurl).then((res) => {
