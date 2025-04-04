@@ -24,7 +24,7 @@ const App = () => {
 
     const handleInputChange = (e) => {
         setInputCity(e.target.value)
-        seterror("")
+        setError("")
     }
 
     const getData = (cityName) => {
