@@ -24,12 +24,11 @@ const App = () => {
 
     const handleInputChange = (e) => {
         setInputCity(e.target.value)
-        setError("")
+        handleSearch()
     }
 
     const getData = (cityName) => {
         if (!cityName) {
-            setError("please entee a cityname");
             return 
         }
         const apiurl = url + cityName + '&appid=' + appid;
