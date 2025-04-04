@@ -24,7 +24,6 @@ const App = () => {
 
     const handleInputChange = (e) => {
         setInputCity(e.target.value)
-        handleSearch()
         seterror("")
     }
 
